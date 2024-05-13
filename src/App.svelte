@@ -2,6 +2,7 @@
 
 	import Header from "./lib/Header.svelte";
 	import Hero from "./lib/Hero.svelte";
+	import Employees from "./lib/Employees.svelte";
 
 </script>
 
@@ -9,5 +10,6 @@
 
 	<Header/>
 	<Hero/>
+	<Employees/>
 
 </main>
