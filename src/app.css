@@ -1,0 +1,47 @@
+/* Imports */
+
+@import url("https://use.typekit.net/ojm7gxz.css");
+
+
+
+/* Global */
+
+*{
+	margin: 0;
+	padding: 0;
+	flex-grow: 0;
+	flex-shrink: 0;
+	font-family: "futura-pt";
+	text-decoration: none;
+}
+
+
+
+/* Variables */
+
+:root{
+	/* General */
+
+	--transition: .3s ease;
+
+
+
+	/* Colors */
+
+	--accent-color: #40d8dd;
+	--text-color: #fff;
+
+
+
+	/* Header */
+
+	--header-height: 120px;
+}
+
+
+
+/* Body */
+
+body{
+	background: url("background.jpg");
+}
