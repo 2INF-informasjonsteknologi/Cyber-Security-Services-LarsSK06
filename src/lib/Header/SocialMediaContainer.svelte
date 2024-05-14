@@ -1,3 +1,12 @@
+<script lang="ts">
+
+	import twitter from "../../img/some/twitter.svg";
+	import linkedin from "../../img/some/linkedin.svg";
+	import instagram from "../../img/some/instagram.svg";
+	import facebook from "../../img/some/facebook.svg";
+
+</script>
+
 <section>
 
 	<!-- 
@@ -8,25 +17,25 @@
 
 	<a href="/">
 		<div class="container">
-			<img alt="Twitter" src="some/twitter.svg">
+			<img alt="Twitter" src="{twitter}">
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="LinkedIn" src="some/linkedin.svg">
+			<img alt="LinkedIn" src="{linkedin}">
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="Instagram" src="some/instagram.svg">
+			<img alt="Instagram" src="{instagram}">
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="Facebook" src="some/facebook.svg">
+			<img alt="Facebook" src="{facebook}">
 		</div>
 	</a>
 
@@ -69,6 +78,12 @@
 		width: 100%;
 		height: 100%;
 		object-fit: contain;
+	}
+
+	@media (width < 900px){
+		section{
+			display: none;
+		}
 	}
 
 </style>

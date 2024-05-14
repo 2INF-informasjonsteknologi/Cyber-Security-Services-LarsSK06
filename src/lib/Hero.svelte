@@ -23,8 +23,9 @@
 <style>
 
 	article{
-		width: 100%;
+		width: calc(100% - 100px);
 		height: calc(100vh - var(--header-height));
+		padding: 0 50px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -44,7 +45,6 @@
 		min-width: fit-content;
 		margin: 20px 0;
 		font-size: 110px;
-		color: var(--text-color);
 		text-align: center;
 	}
 

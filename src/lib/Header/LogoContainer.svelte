@@ -1,6 +1,12 @@
+<script lang="ts">
+
+	import logo from "../../img/logo.png";
+
+</script>
+
 <section>
 
-	<img alt="Cyber Security Services" src="logo.png">
+	<img alt="Cyber Security Services" src="{logo}">
 
 </section>
 
@@ -19,6 +25,12 @@
 	img{
 		width: auto;
 		height: 50px;
+	}
+
+	@media (width < 600px){
+		section{
+			display: none;
+		}
 	}
 
 </style>

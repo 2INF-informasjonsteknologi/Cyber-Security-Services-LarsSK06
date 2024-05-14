@@ -17,12 +17,15 @@
 <style>
 
 	header{
-		width: 100%;
+		width: calc(100% - 100px);
 		height: fit-content;
 		min-height: var(--header-height);
+		padding: 0 50px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		flex-flow: row nowrap;
+		gap: 20px;
 	}
 
 </style>

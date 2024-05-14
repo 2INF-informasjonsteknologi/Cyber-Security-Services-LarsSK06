@@ -1,7 +1,13 @@
+<script lang="ts">
+
+	import employeePlaceholder from "../../img/employee-placeholder.webp";
+
+</script>
+
 <div>
-	<img alt="Placeholder for employee" src="employee-placeholder.webp">
+	<img alt="'Placeholder' for ansatt" src="{employeePlaceholder}">
 	<h3>
-		Employee name
+		Ansattes navn
 	</h3>
 </div>
 
@@ -31,7 +37,6 @@
 		width: 100%;
 		height: fit-content;
 		margin: 6px 0;
-		color: var(--text-color);
 		font-weight: 400;
 	}
 
