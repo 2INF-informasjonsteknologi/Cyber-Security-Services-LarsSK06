@@ -17,25 +17,25 @@
 
 	<a href="/">
 		<div class="container">
-			<img alt="Twitter" src="{twitter}">
+			<img alt="Twitter" src={twitter}>
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="LinkedIn" src="{linkedin}">
+			<img alt="LinkedIn" src={linkedin}>
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="Instagram" src="{instagram}">
+			<img alt="Instagram" src={instagram}>
 		</div>
 	</a>
 
 	<a href="/">
 		<div class="container">
-			<img alt="Facebook" src="{facebook}">
+			<img alt="Facebook" src={facebook}>
 		</div>
 	</a>
 
@@ -81,9 +81,11 @@
 	}
 
 	@media (width < 900px){
+
 		section{
 			display: none;
 		}
+
 	}
 
 </style>

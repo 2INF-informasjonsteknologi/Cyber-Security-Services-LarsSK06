@@ -16,7 +16,7 @@
 		Om oss
 	</a>
 
-	<a href="/">
+	<a href="#contact">
 		Kontakt
 	</a>
 

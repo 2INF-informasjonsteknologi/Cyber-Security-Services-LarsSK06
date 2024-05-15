@@ -27,7 +27,7 @@
 		</p>
 		<p>
 			<b>
-				Epost
+				Epost:
 			</b>
 			post.hamar.katedralskole@innlandetfylke.no
 		</p>
@@ -65,6 +65,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: start;
+		flex-flow: row wrap;
+		gap: 20px;
 	}
 
 	section
