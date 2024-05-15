@@ -6,7 +6,7 @@
 
 <section>
 
-	<img alt="Cyber Security Services" src="{logo}">
+	<img alt="Cyber Security Services" src={logo}>
 
 </section>
 
@@ -28,9 +28,11 @@
 	}
 
 	@media (width < 600px){
+
 		section{
 			display: none;
 		}
+
 	}
 
 </style>

@@ -32,6 +32,7 @@
 	/* Colors */
 
 	--accent-color: #40d8dd;
+	--accent-color-2: #0273dd;
 	--text-color: #fff;
 
 
@@ -43,8 +44,19 @@
 
 
 
+/* HTML */
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
 /* Body */
 
 body{
 	background: url("background.jpg");
+}
+body:has(#cookie-wrapper){
+	overflow: hidden;
 }

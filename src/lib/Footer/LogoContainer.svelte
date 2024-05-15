@@ -6,7 +6,7 @@
 
 <section>
 
-	<img alt="Vår logo" src="{logo}">
+	<img alt="Vår logo" src={logo}>
 
 	<p>
 		Den fremste leverandøren av cyber-sikkerhetstjenester
@@ -33,6 +33,14 @@
 		margin: 10px 0;
 		font-size: 20px;
 		color: #999;
+	}
+
+	@media (width < 700px){
+
+		section{
+			display: none;
+		}
+
 	}
 
 </style>

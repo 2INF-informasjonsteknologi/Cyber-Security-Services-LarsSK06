@@ -8,11 +8,11 @@
 <section>
 
 	<a href="/">
-		<img alt="App Store" src="{appStore}">
+		<img alt="App Store" src={appStore}>
 	</a>
 	
 	<a href="/">
-		<img alt="Google Play" src="{googlePlay}">
+		<img alt="Google Play" src={googlePlay}>
 	</a>
 
 </section>
@@ -34,6 +34,14 @@
 	img{
 		width: 150px;
 		height: auto;
+	}
+
+	@media (width < 900px){
+
+		section{
+			display: none;
+		}
+
 	}
 
 </style>
