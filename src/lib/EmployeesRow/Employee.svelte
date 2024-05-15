@@ -5,10 +5,13 @@
 </script>
 
 <div>
-	<img alt="'Placeholder' for ansatt" src="{employeePlaceholder}">
+	<img alt="'Placeholder' for ansatt" src={employeePlaceholder}>
 	<h3>
 		Ansattes navn
 	</h3>
+	<a href="mailto:employee@cybersecurityservices.com">
+		Ansattes epost-adresse
+	</a>
 </div>
 
 <style>
@@ -38,6 +41,34 @@
 		height: fit-content;
 		margin: 6px 0;
 		font-weight: 400;
+		font-size: 20px;
+	}
+
+	div
+	a{
+		width: 100%;
+		height: fit-content;
+		margin: 6px 0;
+		font-weight: 400;
+		font-size: 18px;
+	}
+
+	@media (width < 800px){
+
+		div{
+			width: 140px;
+		}
+
+		div
+		h3{
+			font-size: 16px;
+		}
+
+		div
+		a{
+			font-size: 14px;
+		}
+
 	}
 
 </style>
